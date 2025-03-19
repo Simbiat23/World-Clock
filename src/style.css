@@ -1,0 +1,55 @@
+body {
+  background: #ffffff;
+  font-family: "Courier New", Courier, monospace;
+}
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background: #f9f7fe;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+h1 {
+  font-size: 46px;
+  text-align: center;
+}
+h2 {
+  margin: 0 0 5px;
+  font-size: 28px;
+}
+select {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 18px;
+}
+.cities {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  padding: 30px 0;
+}
+.cities:last-child {
+  border: none;
+}
+
+.date {
+  opacity: 0.7;
+}
+.time {
+  font-weight: bold;
+  font-size: 48px;
+}
+small {
+  font-size: 24px;
+  line-height: 46px;
+  vertical-align: middle;
+}
+footer {
+  text-align: center;
+  font-size: 16px;
+}
